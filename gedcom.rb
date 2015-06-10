@@ -69,5 +69,4 @@ file = ARGV[0]
 destination = ARGV[1]
 
 parser = GedToXml.new(file)
-result = parser.parse 
-File.write("#{destination}.xml", result)
+File.write("#{destination}.xml", parser.parse)
