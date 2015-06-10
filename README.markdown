@@ -28,7 +28,9 @@ Ruby 2.2.2
 
 ## Usage
 
-    $ ./gedcom.rb royal.ged
+    $ ./gedcom.rb royal.ged result
+
+Outputs to `result.xml`
 
 ## Observations
 
