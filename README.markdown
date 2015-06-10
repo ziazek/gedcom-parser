@@ -18,6 +18,8 @@ In general, each line is formatted like this:
 
     LEVEL TAG-OR-ID [DATA]
 
+Mission: Convert [royal.ged](https://github.com/ziazek/gedcom-parser/blob/master/royal.ged) into [result.xml](https://github.com/ziazek/gedcom-parser/blob/master/result.xml)
+
 
 ## Requirements
 
