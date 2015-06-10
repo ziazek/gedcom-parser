@@ -71,11 +71,3 @@ destination = ARGV[1]
 parser = GedToXml.new(file)
 result = parser.parse 
 File.write("#{destination}.xml", result)
-
-# Format: 
-# LEVEL TAG-OR-ID [DATA]
-# 0 @I1@ INDI
-# 1 NAME Jamis Gordon /Buck/ 
-# 2 SURN Buck
-# 2 GIVN Jamis Gordon
-# 1 SEX M

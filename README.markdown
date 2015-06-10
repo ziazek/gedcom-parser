@@ -32,7 +32,11 @@ Ruby 2.2.2
 
 Outputs to `result.xml`
 
+Remember to `chmod +x gedcom.rb`
+
 ## Observations
+
+- Some tags have text AND children tags. 
 
 ## License
 
