@@ -32,5 +32,8 @@ Ruby 2.2.2
 
 ## Observations
 
+## License
+
+This code is released under the [MIT License](http://www.opensource.org/licenses/MIT)
 
 
