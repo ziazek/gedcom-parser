@@ -30,6 +30,8 @@ Ruby 2.2.2
 
 ## Usage
 
+run `bundle install`
+
     $ ./gedcom.rb royal.ged result
 
 Outputs to `result.xml`
