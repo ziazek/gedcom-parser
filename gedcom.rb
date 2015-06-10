@@ -23,10 +23,10 @@ class GedToXml
     File.open('_intermediate.haml', 'w') do |f|
       f.puts "!!! XML \n"
       intermediate.each_with_index do |h, i|
-        next_elem = intermediate[i + 1]
         indent = 2 * h.fetch(:level).to_i
         data = CGI.escapeHTML(h.fetch(:data) || "")
         id = h.fetch(:id) ? "(id='#{h.fetch(:id)}')" : ""
+        next_elem = intermediate[i + 1]
         if has_children?(h, next_elem)
           f.puts "#{" " * indent}%#{h.fetch(:tag).downcase}#{id}\n#{" " * (indent + 2)}#{data}"
         else
